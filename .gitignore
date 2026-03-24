@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+.venv/
+.env
+
+# Área de dados local
+storage/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# Spark
+metastore_db/
+derby.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+#VSCode
+.vscode/
+*.code-workspace
+
+# Windows
+desktop.ini
+Thumbs.db
