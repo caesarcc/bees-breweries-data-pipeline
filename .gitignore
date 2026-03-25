@@ -16,6 +16,9 @@ airflow.cfg
 metastore_db/
 derby.log
 
+# Docker
+*.pid
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
